@@ -1,2 +1,1 @@
-# Wildcard-Bot
-INI ADALAH WILDCARD CF DENGAN SISTEM BOT DAN GAK PERLU INI ITU KALIAN TINGGAL SETUP 1-2 MENIT BERES
+![Ngapain Kamu ke Sini](https://scontent-cgk1-1.cdninstagram.com/v/t51.29350-15/476494906_1688384975042937_1349461349508612034_n.heic?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-cgk1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AFhFIHsgbSMJ1jusnQG6OTqgF1PcVdzlOizvXWaZGuJsJXjNzp_EZE0-QwCs46lQG8&_nc_ohc=fm3ldSzTSjkQ7kNvgEAp_Qr&_nc_gid=2149aa6835a142e38963a7a13d8667a1&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzU2MTk0NDI3ODkwMzgyMDcwNQ%3D%3D.3-ccb7-5&oh=00_AYDxf_DGTBWMSYDkIRuVZt_LBfKi0sAHnu6MF7RFCB8u2w&oe=67C0D388&_nc_sid=10d13b)
