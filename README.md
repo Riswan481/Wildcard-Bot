@@ -289,7 +289,7 @@ nano auto-wildcard-bot/.env
 
 - 💬 **Telegram**: [@AutoFtBot69](https://t.me/AutoFtBot69)
 - 🐛 **Issues**: [GitHub Issues](https://github.com/AutoFTbot/Wildcard-Bot/issues)
-- 📖 **Wiki**: [Documentation](https://github.com/AutoFTbot/Wildcard-Bot/wiki)
+- 📖 **Wiki**: [Documentation](https://github.com/AutoFTbot/Wildcard-Bot/blob/main/wiki/Home.md)
 
 ## 📄 License
 
