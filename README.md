@@ -231,7 +231,6 @@ pm2 save
 
 | Command       | Description            | Usage                  |
 | ------------- | ---------------------- | ---------------------- |
-| `/analytics`  | Domain statistics      | `/analytics <domain>`  |
 | `/clearcache` | Clear Cloudflare cache | `/clearcache <domain>` |
 
 ### 👑 Admin Commands
