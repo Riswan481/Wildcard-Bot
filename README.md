@@ -1,6 +1,6 @@
-# 🌐 Wildcard Telegram Bot
+# 🌐 Auto Wildcard Telegram Bot
 
-[![npm version](https://badge.fury.io/js/wildcard-domain-bot.svg)](https://www.npmjs.com/package/wildcard-domain-bot)
+[![npm version](https://badge.fury.io/js/auto-wildcard-bot.svg)](https://www.npmjs.com/package/auto-wildcard-bot)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js-16%2B-green.svg)](https://nodejs.org/)
 
@@ -13,19 +13,19 @@
 ### 1. Install globally
 
 ```bash
-npm install -g wildcard-domain-bot
+npm install -g auto-wildcard-bot
 ```
 
 ### 2. Run interactive setup
 
 ```bash
-wildcard-bot
+auto-wildcard-bot
 ```
 
 ### 3. Start your bot
 
 ```bash
-cd wildcard-bot
+cd auto-wildcard-bot
 npm start
 ```
 
@@ -51,13 +51,13 @@ That's all you need! The setup wizard will guide you through everything else.
 
 ## 📱 Interactive Setup
 
-When you run `wildcard-bot`, you'll get a beautiful interactive setup:
+When you run `auto-wildcard-bot`, you'll get a beautiful interactive setup:
 
 ```
-🌐 WILDCARD TELEGRAM BOT SETUP
+🌐 AUTO WILDCARD TELEGRAM BOT SETUP
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Welcome! Let's set up your Wildcard Telegram Bot in 3 easy steps:
+Welcome! Let's set up your Auto Wildcard Telegram Bot in 3 easy steps:
   1️⃣  Bot Token Configuration
   2️⃣  Admin Setup
   3️⃣  Launch Bot
@@ -105,10 +105,10 @@ You get admin-only features:
 
 ## 🏗️ What gets created
 
-When you run `wildcard-bot`, it creates a clean project structure:
+When you run `auto-wildcard-bot`, it creates a clean project structure:
 
 ```
-wildcard-bot/
+auto-wildcard-bot/
 ├── .env                 # Your bot configuration
 ├── config/default.js    # Bot settings
 ├── package.json         # Project info
@@ -125,7 +125,7 @@ wildcard-bot/
 You can also use this as a library in your own projects:
 
 ```javascript
-const WildcardBot = require('wildcard-domain-bot');
+const WildcardBot = require('auto-wildcard-bot');
 
 const bot = new WildcardBot({
     configPath: './my-config.js',
@@ -195,7 +195,7 @@ Your bot comes production-ready with:
 
 ```bash
 npm install -g pm2
-pm2 start index.js --name "wildcard-bot"
+pm2 start index.js --name "auto-wildcard-bot"
 pm2 startup
 pm2 save
 ```
@@ -254,27 +254,27 @@ pm2 save
 ps aux | grep node
 
 # Check logs
-tail -f ~/.pm2/logs/wildcard-bot-out.log
+tail -f ~/.pm2/logs/auto-wildcard-bot-out.log
 ```
 
-**Can't find wildcard-bot command?**
+**Can't find auto-wildcard-bot command?**
 
 ```bash
 # Make sure global install worked
-npm list -g wildcard-domain-bot
+npm list -g auto-wildcard-bot
 
 # Or install locally and run
-npx wildcard-domain-bot
+npx auto-wildcard-bot
 ```
 
 **Configuration issues?**
 
 ```bash
 # Re-run setup
-wildcard-bot
+auto-wildcard-bot
 
 # Or manually edit
-nano wildcard-bot/.env
+nano auto-wildcard-bot/.env
 ```
 
 ## 💡 Tips & Best Practices
@@ -303,6 +303,6 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 Made with ❤️ for the community
 
-[🚀 Get Started](https://www.npmjs.com/package/wildcard-domain-bot) • [📖 Documentation](https://github.com/AutoFTbot/Wildcard-Bot) • [💬 Support](https://t.me/AutoFtBot69)
+[🚀 Get Started](https://www.npmjs.com/package/auto-wildcard-bot) • [📖 Documentation](https://github.com/AutoFTbot/Wildcard-Bot) • [💬 Support](https://t.me/AutoFtBot69)
 
 </div>
