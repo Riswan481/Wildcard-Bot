@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/auto-wildcard-bot.svg)](https://www.npmjs.com/package/auto-wildcard-bot)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js](https://img.shields.io/badge/Node.js-16%2B-green.svg)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-20%2B-green.svg)](https://nodejs.org/)
 
 **The easiest way to set up a Telegram Bot for Cloudflare Wildcard Domain Management!**
 
@@ -37,14 +37,13 @@ npm start
 
 ✅ **Complete Telegram Bot** - Ready to use, no coding required  
 ✅ **Cloudflare Integration** - Automatic wildcard domain setup  
-✅ **WhatsApp Notifications** - Get alerts on domain setup  
 ✅ **Admin Dashboard** - Monitor users and domains  
 ✅ **Custom Domains** - Let users add their own subdomains  
 ✅ **Analytics** - Track domain performance
 
 ## 🔧 Prerequisites (Only 2 things!)
 
-1. **Node.js 16+** - [Download here](https://nodejs.org/)
+1. **Node.js 20+** - [Download here](https://nodejs.org/)
 2. **Telegram Bot Token** - Get from [@BotFather](https://t.me/BotFather)
 
 That's all you need! The setup wizard will guide you through everything else.
@@ -164,7 +163,6 @@ module.exports = {
 ### 📲 Smart Notifications
 
 - **Telegram Groups**: Real-time admin alerts
-- **WhatsApp**: Integration with WAPanels API
 - **Privacy-aware**: Censored domains in public channels
 
 ### 👑 Admin Controls
@@ -231,6 +229,7 @@ pm2 save
 
 | Command       | Description            | Usage                  |
 | ------------- | ---------------------- | ---------------------- |
+| `/analytics`  | Domain statistics      | `/analytics <domain>`  |
 | `/clearcache` | Clear Cloudflare cache | `/clearcache <domain>` |
 
 ### 👑 Admin Commands
@@ -288,7 +287,7 @@ nano auto-wildcard-bot/.env
 
 - 💬 **Telegram**: [@AutoFtBot69](https://t.me/AutoFtBot69)
 - 🐛 **Issues**: [GitHub Issues](https://github.com/AutoFTbot/Wildcard-Bot/issues)
-- 📖 **Wiki**: [Documentation](https://github.com/AutoFTbot/Wildcard-Bot/blob/main/wiki/Home.md)
+- 📖 **Wiki**: [Documentation](https://github.com/AutoFTbot/Wildcard-Bot/wiki)
 
 ## 📄 License
 
@@ -305,3 +304,74 @@ Made with ❤️ for the community
 [🚀 Get Started](https://www.npmjs.com/package/auto-wildcard-bot) • [📖 Documentation](https://github.com/AutoFTbot/Wildcard-Bot) • [💬 Support](https://t.me/AutoFtBot69)
 
 </div>
+
+## ✨ Features
+
+🎯 **Core Functions:**
+- ✅ **Setup Wildcard** - Automated Cloudflare wildcard domain configuration
+- ✅ **Domain Management** - Complete subdomain control via Telegram
+- ✅ **Multi-User Support** - Each user gets their personal domain space
+- ✅ **Smart Analytics** - Real-time domain statistics and insights
+- ✅ **Cache Control** - Advanced Cloudflare cache management
+- ✅ **Admin Panel** - Comprehensive bot management interface
+- ✅ **Telegram Notifications** - Get alerts on domain setup
+
+🔧 **Technical Features:**
+- ✅ **NPM Package** - Easy global installation
+- ✅ **Environment Config** - Secure API key management  
+- ✅ **Rate Limiting** - Built-in abuse protection
+- ✅ **Error Handling** - Comprehensive error reporting
+- ✅ **Auto-Setup** - Interactive configuration wizard
+- ✅ **CLI Tools** - Command-line utilities
+
+## 🚀 Quick Setup
+
+```bash
+# Install globally
+npm install -g auto-wildcard-bot
+
+# Run interactive setup
+auto-wildcard-bot
+
+# Or manual setup:
+git clone https://github.com/AutoFTbot/Wildcard-Bot.git
+cd auto-wildcard-bot
+npm install
+npm start
+```
+
+### 📋 Environment Variables
+
+Create `.env` file in your project root:
+
+```env
+# Bot Configuration
+BOT_TOKEN=your_telegram_bot_token
+ADMIN_IDS=123456789,987654321
+
+# Telegram Notifications
+TELEGRAM_GROUP_ID=your_telegram_group_id
+
+# Optional Settings
+MAX_CUSTOM_DOMAINS=5
+NODE_ENV=production
+```
+
+## 📱 Notification Setup
+
+```javascript
+// config/default.js
+NOTIFICATIONS: {
+    TELEGRAM: {
+        enabled: true,
+        groupId: process.env.TELEGRAM_GROUP_ID || '',
+    },
+},
+```
+
+## 🛠️ Development
+
+- **Telegram Bot API**: Real-time bot interactions  
+- **Node.js & NPM**: Core runtime and package management
+- **Cloudflare API**: Domain and DNS management
+- **Rate Limiting**: Built-in request throttling
