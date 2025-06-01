@@ -12,7 +12,7 @@
 **⭐ If this project is useful for you, please give it a star!**  
 **🍴 Feel free to fork and contribute!**
 
-[📦 NPM Package](https://www.npmjs.com/package/autoft-bot-wildcard) • [💬 Support](https://t.me/AutoFtFile) • [🐛 Issues](https://github.com/AutoFTbot/Wildcard-Bot/issues)
+[📦 NPM Package](https://www.npmjs.com/package/autoft-bot-wildcard) • [📢 Updates Channel](https://t.me/AutoFtFile) • [🐛 Issues](https://github.com/AutoFTbot/Wildcard-Bot/issues)
 
 </div>
 
@@ -161,9 +161,9 @@ If this bot has been helpful for your wildcard domain management, consider suppo
 
 <div align="center">
 
-### 💬 Get Help
+### 💬 Get Updates & Support
 
-[![Telegram Support](https://img.shields.io/badge/Telegram-Support-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/AutoFtFile)
+[![Telegram Channel](https://img.shields.io/badge/Telegram-Updates-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/AutoFtFile)
 [![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AutoFTbot/Wildcard-Bot/issues)
 
 ### 📊 Project Stats
@@ -190,8 +190,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **🌟 If this project helped you, please consider giving it a star!**
 
-**Made with ❤️ by the AutoFTbot Team**
+**Made with ❤️ by the AutoFTbot Team**  
+**Developer: [@AutoFtBot69](https://t.me/AutoFtBot69)**
 
-[🚀 Get Started Now](https://www.npmjs.com/package/autoft-bot-wildcard) • [💬 Join Community](https://t.me/AutoFtFile) • [💰 Donate](https://raw.githubusercontent.com/AutoFTbot/AutoFTbot/refs/heads/main/assets/QRIS.jpg)
+[🚀 Get Started Now](https://www.npmjs.com/package/autoft-bot-wildcard) • [📢 Updates Channel](https://t.me/AutoFtFile) • [💰 Donate](https://raw.githubusercontent.com/AutoFTbot/AutoFTbot/refs/heads/main/assets/QRIS.jpg)
 
 </div>
