@@ -30,28 +30,7 @@ npm install -g autoft-bot-wildcard
 autoft-bot-wildcard
 
 # Follow the setup wizard and start your bot!
-```
-
-### Method 2: Clone & Run
-
-```bash
-# Clone this repository
-git clone https://github.com/AutoFTbot/Wildcard-Bot.git
-cd Wildcard-Bot
-
-# Install dependencies
-npm install
-
-# Copy environment template
-cp .env.example .env
-
-# Edit your bot configuration
-nano .env
-
-# Start the bot
-npm start
-```
-
+``
 ---
 
 ## ✨ Features
