@@ -5,14 +5,14 @@
 [![npm version](https://badge.fury.io/js/autoft-bot-wildcard.svg)](https://www.npmjs.com/package/autoft-bot-wildcard)
 [![Downloads](https://img.shields.io/npm/dm/autoft-bot-wildcard.svg)](https://www.npmjs.com/package/autoft-bot-wildcard)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js](https://img.shields.io/badge/Node.js-16%2B-green.svg)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-20%2B-green.svg)](https://nodejs.org/)
 
 **🚀 Advanced Telegram Bot for Automated Cloudflare Wildcard Domain Management**
 
 **⭐ If this project is useful for you, please give it a star!**  
 **🍴 Feel free to fork and contribute!**
 
-[📦 NPM Package](https://www.npmjs.com/package/autoft-bot-wildcard) • [💬 Support](https://t.me/AutoFtBot69) • [🐛 Issues](https://github.com/AutoFTbot/Wildcard-Bot/issues)
+[📦 NPM Package](https://www.npmjs.com/package/autoft-bot-wildcard) • [💬 Support](https://t.me/AutoFtFile) • [🐛 Issues](https://github.com/AutoFTbot/Wildcard-Bot/issues)
 
 </div>
 
@@ -84,7 +84,7 @@ TELEGRAM_GROUP_ID=-1001234567890
 
 ### Prerequisites
 
-- **Node.js 16+** - [Download here](https://nodejs.org/)
+- **Node.js 20+** - [Download here](https://nodejs.org/)
 - **Telegram Bot Token** - Get from [@BotFather](https://t.me/BotFather)
 - **Cloudflare Account** - [Sign up here](https://cloudflare.com/)
 
@@ -163,7 +163,7 @@ If this bot has been helpful for your wildcard domain management, consider suppo
 
 ### 💬 Get Help
 
-[![Telegram Support](https://img.shields.io/badge/Telegram-Support-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/AutoFtBot69)
+[![Telegram Support](https://img.shields.io/badge/Telegram-Support-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/AutoFtFile)
 [![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AutoFTbot/Wildcard-Bot/issues)
 
 ### 📊 Project Stats
@@ -192,6 +192,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ by the AutoFTbot Team**
 
-[🚀 Get Started Now](https://www.npmjs.com/package/autoft-bot-wildcard) • [💬 Dev](https://t.me/AutoFtBot69) • [💰 Donate](https://raw.githubusercontent.com/AutoFTbot/AutoFTbot/refs/heads/main/assets/QRIS.jpg)
+[🚀 Get Started Now](https://www.npmjs.com/package/autoft-bot-wildcard) • [💬 Join Community](https://t.me/AutoFtFile) • [💰 Donate](https://raw.githubusercontent.com/AutoFTbot/AutoFTbot/refs/heads/main/assets/QRIS.jpg)
 
 </div>
