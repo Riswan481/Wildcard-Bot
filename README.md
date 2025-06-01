@@ -218,6 +218,183 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+## 🌐 Web Dashboard (Coming Soon)
+
+<div align="center">
+
+### 🎨 Modern Web Interface
+
+**Manage your wildcard domains from anywhere with our upcoming web dashboard!**
+
+![Web Dashboard Preview](https://via.placeholder.com/800x400/2ea44f/ffffff?text=AutoFT+Web+Dashboard+Coming+Soon)
+
+</div>
+
+### 🚀 Planned Features
+
+<div align="center">
+
+| 📊 **Analytics** | 🎛️ **Control Panel** | 👥 **User Management** | 🔔 **Notifications** |
+|:---:|:---:|:---:|:---:|
+| Real-time domain stats | Drag & drop interface | Role-based access | Live activity feed |
+| Traffic monitoring | Bulk operations | Team collaboration | Custom alerts |
+| Performance insights | Quick actions | Permission controls | Email & Telegram |
+
+</div>
+
+### 🛠️ Tech Stack
+
+```javascript
+// Modern web technologies planned
+{
+  "frontend": ["React", "Next.js", "TailwindCSS", "Chart.js"],
+  "backend": ["Node.js", "Express", "Socket.io", "JWT"],
+  "database": ["MongoDB", "Redis"],
+  "deployment": ["Docker", "Nginx", "PM2"]
+}
+```
+
+### 🎯 Web Features Roadmap
+
+- [ ] 🎨 **Q2 2024**: Modern dashboard UI/UX
+- [ ] 📊 **Q2 2024**: Real-time analytics & charts  
+- [ ] 👥 **Q3 2024**: Multi-user management portal
+- [ ] 🔐 **Q3 2024**: Advanced security & 2FA
+- [ ] 📱 **Q4 2024**: Mobile-responsive design
+- [ ] 🌍 **Q4 2024**: Multi-language support
+- [ ] 🔗 **2025**: REST API & webhooks
+- [ ] ⚡ **2025**: GraphQL integration
+
+### 💡 Sneak Peek
+
+<div align="center">
+
+**🎛️ Dashboard Overview**
+```
+┌─────────────────────────────────────────────────┐
+│  AutoFT Web Dashboard                     🔔 📊 │
+├─────────────────────────────────────────────────┤
+│  📈 Analytics    🌐 Domains    👥 Users    ⚙️   │
+├─────────────────────────────────────────────────┤
+│                                                 │
+│  🎯 Quick Actions                               │
+│  ┌─────────────┐ ┌─────────────┐ ┌───────────┐  │
+│  │ Add Domain  │ │ Setup Wild  │ │ View Logs │  │
+│  │     +       │ │     *.     │ │    📋    │  │
+│  └─────────────┘ └─────────────┘ └───────────┘  │
+│                                                 │
+│  📊 Domain Statistics                           │
+│  ┌─ example.com ────────────────── 89% ──┐     │
+│  ┌─ demo.net ──────────────────── 76% ──┐      │
+│  ┌─ test.org ──────────────────── 45% ──┐      │
+│                                                 │
+└─────────────────────────────────────────────────┘
+```
+
+</div>
+
+### 🎪 Interactive Demo
+
+Want early access to the web dashboard? Join our beta program!
+
+<div align="center">
+
+[![Beta Access](https://img.shields.io/badge/🌟-Join%20Beta%20Program-ff6b6b?style=for-the-badge)](https://t.me/AutoFtFile)
+[![Web Demo](https://img.shields.io/badge/🌐-View%20Demo-4ecdc4?style=for-the-badge)](https://demo.autoft-bot.com)
+
+**📢 Get notified when web dashboard launches!**
+
+</div>
+
+---
+
+## 👨‍💻 For Developers
+
+<div align="center">
+
+**Join our development team and help build the future of domain management!**
+
+</div>
+
+### 🚀 Development Stack
+
+```bash
+# Current Bot Architecture
+├── 🤖 Telegram Bot (Node.js + Telegraf)
+├── ☁️ Cloudflare API Integration  
+├── 📊 Real-time Analytics
+└── 🔧 PM2 Process Management
+
+# Upcoming Web Stack
+├── ⚛️ Frontend (React + Next.js + TailwindCSS)
+├── 🗄️ Backend (Node.js + Express + Socket.io)
+├── 💾 Database (MongoDB + Redis)
+└── 🐳 DevOps (Docker + Nginx + GitHub Actions)
+```
+
+### 🛠️ Contributing Areas
+
+<div align="center">
+
+| 🎨 **Frontend** | 🔧 **Backend** | 📱 **Mobile** | 🧪 **Testing** |
+|:---:|:---:|:---:|:---:|
+| React/Next.js | Node.js/Express | React Native | Jest/Cypress |
+| UI/UX Design | API Development | iOS/Android | Performance |
+| Dashboard | Database Design | PWA | Security |
+
+</div>
+
+### 🎯 Open Opportunities
+
+- 🎨 **UI/UX Designer** - Design the web dashboard interface
+- ⚛️ **React Developer** - Build responsive frontend components  
+- 🔧 **Backend Developer** - API & database architecture
+- 📱 **Mobile Developer** - React Native mobile app
+- 🧪 **QA Engineer** - Testing & automation
+- 📝 **Technical Writer** - Documentation & tutorials
+- 🌍 **Translator** - Multi-language support
+
+### 💡 Quick Start Development
+
+```bash
+# Clone the repository
+git clone https://github.com/AutoFTbot/Wildcard-Bot.git
+cd Wildcard-Bot
+
+# Install dependencies
+npm install
+
+# Set up development environment
+cp .env.example .env.dev
+nano .env.dev
+
+# Start development mode
+npm run dev
+
+# Run tests
+npm test
+
+# Build for production
+npm run build
+```
+
+### 🏆 Contributor Benefits
+
+- 🌟 **Recognition** in project credits
+- 📈 **Portfolio** enhancement with real-world project
+- 🤝 **Networking** with global developer community
+- 🎓 **Learning** modern web technologies
+- 💰 **Revenue sharing** for premium features (planned)
+
+<div align="center">
+
+[![Contribute](https://img.shields.io/badge/🚀-Start%20Contributing-success?style=for-the-badge)](https://github.com/AutoFTbot/Wildcard-Bot/blob/main/CONTRIBUTING.md)
+[![Discord](https://img.shields.io/badge/💬-Developer%20Chat-7289DA?style=for-the-badge&logo=discord)](https://discord.gg/autoft-dev)
+
+</div>
+
+---
+
 <div align="center">
 
 **🌟 If this project helped you, please consider giving it a star!**
