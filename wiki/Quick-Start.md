@@ -236,7 +236,7 @@ pm2 logs autoft-bot-wildcard
 
 1. **📖 Read [Commands Reference](Commands.md)** - Learn all available commands
 2. **🔧 Check [Configuration Guide](Configuration.md)** - Advanced settings
-3. **💬 Join [Support Group](https://t.me/AutoFtBot69)** - Get help and updates
+3. **📢 Join [Updates Channel](https://t.me/AutoFtFile)** - Get latest news and updates
 4. **⭐ Star the [Repository](https://github.com/AutoFTbot/Wildcard-Bot)** - Support the project
 
 ---
@@ -245,7 +245,8 @@ pm2 logs autoft-bot-wildcard
 
 - **📖 Documentation**: [Full Wiki](Home.md)
 - **🔧 Issues**: [Troubleshooting Guide](Troubleshooting.md)
-- **💬 Live Support**: [Telegram Group](https://t.me/AutoFtBot69)
+- **📢 Updates**: [Channel](https://t.me/AutoFtFile)
+- **👨‍💻 Developer**: [Contact](https://t.me/AutoFtBot69)
 - **🐛 Bug Reports**: [GitHub Issues](https://github.com/AutoFTbot/Wildcard-Bot/issues)
 
 ---

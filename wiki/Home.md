@@ -49,9 +49,10 @@ AutoFT Bot Wildcard is an advanced Telegram bot designed for automated Cloudflar
 
 - 📦 [NPM Package](https://www.npmjs.com/package/autoft-bot-wildcard)
 - 🐙 [GitHub Repository](https://github.com/AutoFTbot/Wildcard-Bot)
-- 💬 [Telegram Support](https://t.me/AutoFtBot69)
+- 📢 [Updates Channel](https://t.me/AutoFtFile)
+- 👨‍💻 [Developer](https://t.me/AutoFtBot69)
 - 🐛 [Report Issues](https://github.com/AutoFTbot/Wildcard-Bot/issues)
 
 ---
 
-**Need help? Join our [Telegram group](https://t.me/AutoFtBot69) for support!** 
+**Need help? Join our [updates channel](https://t.me/AutoFtFile) for the latest news and updates!** 

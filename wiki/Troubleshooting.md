@@ -352,10 +352,10 @@ autoft-bot-wildcard --validate-config
 
 ### Where to Get Help
 
-1. **📖 Documentation**: [Wiki](https://github.com/AutoFTbot/Wildcard-Bot/wiki)
-2. **💬 Telegram Group**: [Support Group](https://t.me/AutoFtBot69)
+1. **�� Documentation**: [Complete Wiki](Home.md)
+2. **📢 Updates Channel**: [AutoFtFile Channel](https://t.me/AutoFtFile)
 3. **🐛 GitHub Issues**: [Report Bug](https://github.com/AutoFTbot/Wildcard-Bot/issues/new)
-4. **📧 Email**: Contact through GitHub
+4. **👨‍💻 Developer**: [Contact Developer](https://t.me/AutoFtBot69)
 
 ### When Reporting Issues
 
@@ -408,4 +408,4 @@ npm start
 
 ---
 
-**Still having issues? Join our [Telegram group](https://t.me/AutoFtBot69) for live support!** 
+**Still having issues? Join our [updates channel](https://t.me/AutoFtFile) or contact the [developer](https://t.me/AutoFtBot69)!** 

@@ -329,4 +329,4 @@ npm start
 
 ---
 
-**Need help with configuration? Join our [Telegram group](https://t.me/AutoFtBot69)!** 
+**Need help with configuration? Join our [updates channel](https://t.me/AutoFtFile) for the latest guides and updates!** 

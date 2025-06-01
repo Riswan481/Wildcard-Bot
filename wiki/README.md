@@ -20,8 +20,9 @@ This directory contains the complete documentation for AutoFT Bot Wildcard.
 ## 🆘 Need Help?
 
 1. **Common issues**: [Troubleshooting Guide](Troubleshooting.md)
-2. **Live support**: [Telegram Group](https://t.me/AutoFtBot69)
+2. **Updates & News**: [Telegram Channel](https://t.me/AutoFtFile)
 3. **Report bugs**: [GitHub Issues](https://github.com/AutoFTbot/Wildcard-Bot/issues)
+4. **Contact Developer**: [@AutoFtBot69](https://t.me/AutoFtBot69)
 
 ## 📋 Documentation Structure
 
@@ -39,7 +40,8 @@ wiki/
 
 - 📦 [NPM Package](https://www.npmjs.com/package/autoft-bot-wildcard)
 - 🐙 [GitHub Repository](https://github.com/AutoFTbot/Wildcard-Bot)
-- 💬 [Telegram Support](https://t.me/AutoFtBot69)
+- 📢 [Updates Channel](https://t.me/AutoFtFile)
+- 👨‍💻 [Developer](https://t.me/AutoFtBot69)
 
 ---
 

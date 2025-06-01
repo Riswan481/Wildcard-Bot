@@ -198,4 +198,4 @@ Commands will respond with error messages if:
 
 ---
 
-**Need help with a specific command? Join our [Telegram group](https://t.me/AutoFtBot69)!** 
+**Need help with a specific command? Join our [updates channel](https://t.me/AutoFtFile) for the latest information!** 
