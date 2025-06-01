@@ -1,6 +1,6 @@
 # 🌐 Auto Wildcard Telegram Bot
 
-[![npm version](https://badge.fury.io/js/auto-wildcard-bot.svg)](https://www.npmjs.com/package/auto-wildcard-bot)
+[![npm version](https://badge.fury.io/js/auto-wildcard-domain-bot.svg)](https://www.npmjs.com/package/auto-wildcard-domain-bot)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-green.svg)](https://nodejs.org/)
 
@@ -13,19 +13,19 @@
 ### 1. Install globally
 
 ```bash
-npm install -g auto-wildcard-bot
+npm install -g auto-wildcard-domain-bot
 ```
 
 ### 2. Run interactive setup
 
 ```bash
-auto-wildcard-bot
+auto-wildcard-domain-bot
 ```
 
 ### 3. Start your bot
 
 ```bash
-cd auto-wildcard-bot
+cd auto-wildcard-domain-bot
 npm start
 ```
 
@@ -50,7 +50,7 @@ That's all you need! The setup wizard will guide you through everything else.
 
 ## 📱 Interactive Setup
 
-When you run `auto-wildcard-bot`, you'll get a beautiful interactive setup:
+When you run `auto-wildcard-domain-bot`, you'll get a beautiful interactive setup:
 
 ```
 🌐 AUTO WILDCARD TELEGRAM BOT SETUP
@@ -104,10 +104,10 @@ You get admin-only features:
 
 ## 🏗️ What gets created
 
-When you run `auto-wildcard-bot`, it creates a clean project structure:
+When you run `auto-wildcard-domain-bot`, it creates a clean project structure:
 
 ```
-auto-wildcard-bot/
+auto-wildcard-domain-bot/
 ├── .env                 # Your bot configuration
 ├── config/default.js    # Bot settings
 ├── package.json         # Project info
@@ -124,7 +124,7 @@ auto-wildcard-bot/
 You can also use this as a library in your own projects:
 
 ```javascript
-const WildcardBot = require('auto-wildcard-bot');
+const WildcardBot = require('auto-wildcard-domain-bot');
 
 const bot = new WildcardBot({
     configPath: './my-config.js',
@@ -193,7 +193,7 @@ Your bot comes production-ready with:
 
 ```bash
 npm install -g pm2
-pm2 start index.js --name "auto-wildcard-bot"
+pm2 start index.js --name "auto-wildcard-domain-bot"
 pm2 startup
 pm2 save
 ```
@@ -252,27 +252,27 @@ pm2 save
 ps aux | grep node
 
 # Check logs
-tail -f ~/.pm2/logs/auto-wildcard-bot-out.log
+tail -f ~/.pm2/logs/auto-wildcard-domain-bot-out.log
 ```
 
-**Can't find auto-wildcard-bot command?**
+**Can't find auto-wildcard-domain-bot command?**
 
 ```bash
 # Make sure global install worked
-npm list -g auto-wildcard-bot
+npm list -g auto-wildcard-domain-bot
 
 # Or install locally and run
-npx auto-wildcard-bot
+npx auto-wildcard-domain-bot
 ```
 
 **Configuration issues?**
 
 ```bash
 # Re-run setup
-auto-wildcard-bot
+auto-wildcard-domain-bot
 
 # Or manually edit
-nano auto-wildcard-bot/.env
+nano auto-wildcard-domain-bot/.env
 ```
 
 ## 💡 Tips & Best Practices
@@ -301,13 +301,14 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 Made with ❤️ for the community
 
-[🚀 Get Started](https://www.npmjs.com/package/auto-wildcard-bot) • [📖 Documentation](https://github.com/AutoFTbot/Wildcard-Bot) • [💬 Support](https://t.me/AutoFtBot69)
+[🚀 Get Started](https://www.npmjs.com/package/auto-wildcard-domain-bot) • [📖 Documentation](https://github.com/AutoFTbot/Wildcard-Bot) • [💬 Support](https://t.me/AutoFtBot69)
 
 </div>
 
 ## ✨ Features
 
 🎯 **Core Functions:**
+
 - ✅ **Setup Wildcard** - Automated Cloudflare wildcard domain configuration
 - ✅ **Domain Management** - Complete subdomain control via Telegram
 - ✅ **Multi-User Support** - Each user gets their personal domain space
@@ -317,8 +318,9 @@ Made with ❤️ for the community
 - ✅ **Telegram Notifications** - Get alerts on domain setup
 
 🔧 **Technical Features:**
+
 - ✅ **NPM Package** - Easy global installation
-- ✅ **Environment Config** - Secure API key management  
+- ✅ **Environment Config** - Secure API key management
 - ✅ **Rate Limiting** - Built-in abuse protection
 - ✅ **Error Handling** - Comprehensive error reporting
 - ✅ **Auto-Setup** - Interactive configuration wizard
@@ -328,14 +330,14 @@ Made with ❤️ for the community
 
 ```bash
 # Install globally
-npm install -g auto-wildcard-bot
+npm install -g auto-wildcard-domain-bot
 
 # Run interactive setup
-auto-wildcard-bot
+auto-wildcard-domain-bot
 
 # Or manual setup:
 git clone https://github.com/AutoFTbot/Wildcard-Bot.git
-cd auto-wildcard-bot
+cd auto-wildcard-domain-bot
 npm install
 npm start
 ```
@@ -371,7 +373,62 @@ NOTIFICATIONS: {
 
 ## 🛠️ Development
 
-- **Telegram Bot API**: Real-time bot interactions  
+- **Telegram Bot API**: Real-time bot interactions
 - **Node.js & NPM**: Core runtime and package management
 - **Cloudflare API**: Domain and DNS management
 - **Rate Limiting**: Built-in request throttling
+
+## 🔒 Security & Anti-Piracy Protection
+
+Package ini dilindungi dengan beberapa layer security:
+
+### 1. Code Obfuscation
+- Source code utama telah di-obfuscate untuk mencegah reverse engineering
+- Variabel dan function names telah dienkripsi
+- Control flow protection untuk mempersulit analisis
+
+### 2. License Protection
+Package ini dilisensikan dengan **Custom Proprietary License**:
+- ✅ Penggunaan untuk tujuan personal dan educational
+- ❌ **DILARANG** untuk:
+  - Modifikasi dan redistribusi
+  - Penggunaan komersial tanpa izin
+  - Reverse engineering
+  - Pembuatan karya turunan
+
+### 3. Runtime Verification
+- Verifikasi integritas package saat runtime
+- Detection terhadap unauthorized modification
+- Automatic reporting untuk suspicious activity
+
+### 4. Watermarking
+Setiap instance bot memiliki watermark unik:
+```
+🤖 Powered by AutoWildcard Bot v2.0
+📧 Contact: @AutoFtBot69
+⚠️  Licensed Software - Unauthorized use prohibited
+```
+
+### 5. Usage Tracking
+- Anonymous usage analytics untuk monitoring
+- Detection pattern untuk commercial usage
+- Automated license compliance checking
+
+## ⚖️ Legal Notice
+
+**PERINGATAN HUKUM:**
+- Penggunaan tidak sah dari software ini dapat berakibat tindakan hukum
+- Pelanggaran license akan dilaporkan ke platform terkait
+- Kami menggunakan digital fingerprinting untuk tracking unauthorized usage
+
+Dengan menggunakan package ini, Anda setuju untuk:
+1. Mematuhi semua ketentuan license
+2. Tidak melakukan reverse engineering
+3. Tidak mendistribusikan ulang tanpa izin
+4. Menggunakan hanya untuk tujuan yang diizinkan
+
+## 📞 Support & Licensing
+
+Untuk pertanyaan licensing atau penggunaan komersial:
+- Telegram: [@AutoFtBot69](https://t.me/AutoFtBot69)
+- Email: licensing@autowildcard.com
