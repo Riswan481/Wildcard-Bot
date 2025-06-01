@@ -18,121 +18,185 @@
 
 ---
 
-## 🚀 Quick Installation
+## ⚡ Quick Setup
 
-### Method 1: NPM Global Install (Recommended)
+### 1️⃣ Install Package
 
 ```bash
-# Install the bot globally
 npm install -g autoft-bot-wildcard
+```
 
-# Run interactive setup
+### 2️⃣ Run Interactive Setup
+
+```bash
 autoft-bot-wildcard
+```
 
-# Follow the setup wizard and start your bot!
-``
+### 3️⃣ Start Your Bot
+
+```bash
+cd autoft-bot-wildcard
+npm start
+```
+
+**🎉 Your bot is now live and ready!**
+
+---
+
+## 🚀 Production Setup with PM2
+
+### Install PM2 & Setup Service
+
+```bash
+# Install PM2 globally
+npm install -g pm2
+
+# Navigate to your bot directory
+cd autoft-bot-wildcard
+
+# Start bot with PM2
+pm2 start index.js --name "autoft-bot-wildcard"
+
+# Save PM2 configuration
+pm2 save
+
+# Enable auto-start on system boot
+pm2 startup
+
+# Check status
+pm2 status
+```
+
+### PM2 Management Commands
+
+```bash
+# Monitor logs
+pm2 logs autoft-bot-wildcard
+
+# Restart bot
+pm2 restart autoft-bot-wildcard
+
+# Stop bot
+pm2 stop autoft-bot-wildcard
+
+# Delete from PM2
+pm2 delete autoft-bot-wildcard
+
+# Monitor all processes
+pm2 monit
+```
+
 ---
 
 ## ✨ Features
 
-- 🤖 **Telegram Bot Interface** - Complete wildcard management via Telegram
-- 🌐 **Cloudflare Integration** - Automated DNS wildcard setup
-- 👥 **Multi-User Support** - Each user manages their own domains
-- 🔐 **Secure Configuration** - Safe API key storage
-- 📊 **Real-time Analytics** - Domain statistics and monitoring
-- 📢 **Telegram Notifications** - Instant alerts and updates
-- 🎨 **Interactive Setup** - Beautiful CLI wizard for easy installation
-- ⚡ **Lightweight & Fast** - Optimized performance
+<div align="center">
+
+| 🤖 **Bot Interface** | 🌐 **Cloudflare** | 👥 **Multi-User** | 🔐 **Secure** |
+|:---:|:---:|:---:|:---:|
+| Complete Telegram management | Automated DNS setup | Individual domain control | Safe API storage |
+
+| 📊 **Analytics** | 📢 **Notifications** | 🎨 **Easy Setup** | ⚡ **Performance** |
+|:---:|:---:|:---:|:---:|
+| Real-time statistics | Instant Telegram alerts | Interactive CLI wizard | Lightweight & fast |
+
+</div>
 
 ---
 
-## 🔧 Configuration
+## 🎯 Quick Commands
 
-### Required Environment Variables
-
-```env
-# Get from @BotFather
-BOT_TOKEN=your_bot_token_here
-
-# Your Telegram ID (get from @userinfobot)
-ADMIN_IDS=123456789
-
-# Optional: Group ID for notifications
-TELEGRAM_GROUP_ID=-1001234567890
+### 🔰 Basic Usage
+```bash
+/start                           # Start the bot
+/addcf <api_key> <email>        # Add Cloudflare credentials
+/listdomain                      # Show available domains
+/setupwildcard example.com       # Setup wildcard domain
+/mysub                          # View your subdomains
 ```
 
-### Prerequisites
+### 👑 Admin Commands
+```bash
+/stats                          # Bot statistics
+/broadcast <message>            # Send to all users
+/userinfo <user_id>            # User details
+/testnotif                     # Test notifications
+```
+
+---
+
+## ⚙️ Configuration
+
+### Required Environment
 
 - **Node.js 20+** - [Download here](https://nodejs.org/)
 - **Telegram Bot Token** - Get from [@BotFather](https://t.me/BotFather)
 - **Cloudflare Account** - [Sign up here](https://cloudflare.com/)
 
----
+### Environment Variables
 
-## 📱 Basic Usage
+```env
+# 🤖 Bot Configuration
+BOT_TOKEN=your_bot_token_here
+ADMIN_IDS=123456789
 
-### User Commands
-1. **Start the bot**: `/start`
-2. **Add Cloudflare**: `/addcf <api_key> <email>`
-3. **List domains**: `/listdomain`
-4. **Setup wildcard**: `/setupwildcard example.com`
-5. **Manage subdomains**: `/mysub`
+# 📢 Optional: Notifications
+TELEGRAM_GROUP_ID=-1001234567890
 
-### Admin Commands
-- `/stats` - Bot usage statistics
-- `/broadcast <message>` - Send message to all users
-- `/userinfo <user_id>` - View user details
-- `/testnotif` - Test notification system
+# 🔧 Optional: Settings
+MAX_CUSTOM_DOMAINS=5
+NODE_ENV=production
+```
 
 ---
 
 ## 📚 Documentation
 
-For detailed information:
+<div align="center">
 
-- 📖 [Commands Reference](wiki/Commands.md)
-- 🔧 [Advanced Configuration](wiki/Configuration.md)
-- 🆘 [Troubleshooting Guide](wiki/Troubleshooting.md)
-- 🚀 [Quick Start Guide](wiki/Quick-Start.md)
-- 🏠 [Complete Wiki](wiki/Home.md)
+| 📖 **Guide** | 🔧 **Setup** | 🆘 **Help** | 🚀 **Start** |
+|:---:|:---:|:---:|:---:|
+| [Commands](wiki/Commands.md) | [Configuration](wiki/Configuration.md) | [Troubleshooting](wiki/Troubleshooting.md) | [Quick Start](wiki/Quick-Start.md) |
 
----
+[🏠 **Complete Wiki**](wiki/Home.md)
 
-## 🤝 Contributing
-
-We welcome contributions! Here's how you can help:
-
-1. 🌟 **Star this repository** if you find it useful
-2. 🍴 **Fork the repository** and create your feature branch
-3. 🐛 **Report bugs** using our [issue template](https://github.com/AutoFTbot/Wildcard-Bot/issues/new)
-4. 💡 **Suggest features** or improvements
-5. 📝 **Improve documentation** or add examples
+</div>
 
 ---
 
 ## 💝 Support the Project
 
-If this bot has been helpful for your wildcard domain management, consider supporting our development:
+<div align="center">
 
 ### 💰 Donate via QRIS (Indonesia)
 
-<div align="center">
-
 ![QRIS Donation](https://raw.githubusercontent.com/AutoFTbot/AutoFTbot/refs/heads/main/assets/QRIS.jpg)
 
-**Scan the QR code above to donate via QRIS**
-
-*Your donation helps us maintain and improve this project!*
-
-</div>
+**Your donation helps us maintain and improve this project!**
 
 ### 🌟 Other Ways to Support
 
-- ⭐ **Star this repository** on GitHub
-- 🍴 **Fork and share** with others
-- 📢 **Share on social media** or developer communities
-- 🐛 **Report bugs** and help improve the bot
-- 📝 **Contribute code** or documentation
+[![Star](https://img.shields.io/badge/⭐-Star%20this%20repo-yellow?style=for-the-badge)](https://github.com/AutoFTbot/Wildcard-Bot)
+[![Fork](https://img.shields.io/badge/🍴-Fork%20&%20Share-blue?style=for-the-badge)](https://github.com/AutoFTbot/Wildcard-Bot/fork)
+[![Issues](https://img.shields.io/badge/🐛-Report%20Bugs-red?style=for-the-badge)](https://github.com/AutoFTbot/Wildcard-Bot/issues)
+
+</div>
+
+---
+
+## 📊 Project Stats
+
+<div align="center">
+
+![GitHub stars](https://img.shields.io/github/stars/AutoFTbot/Wildcard-Bot.svg?style=social&label=Star)
+![GitHub forks](https://img.shields.io/github/forks/AutoFTbot/Wildcard-Bot.svg?style=social&label=Fork)
+![GitHub watchers](https://img.shields.io/github/watchers/AutoFTbot/Wildcard-Bot.svg?style=social&label=Watch)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/AutoFTbot/Wildcard-Bot)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/AutoFTbot/Wildcard-Bot)
+![NPM Downloads](https://img.shields.io/npm/dt/autoft-bot-wildcard)
+
+</div>
 
 ---
 
@@ -140,20 +204,9 @@ If this bot has been helpful for your wildcard domain management, consider suppo
 
 <div align="center">
 
-### 💬 Get Updates & Support
-
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Updates-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/AutoFtFile)
-[![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AutoFTbot/Wildcard-Bot/issues)
-
-### 📊 Project Stats
-
-![GitHub stars](https://img.shields.io/github/stars/AutoFTbot/Wildcard-Bot.svg?style=social&label=Star)
-![GitHub forks](https://img.shields.io/github/forks/AutoFTbot/Wildcard-Bot.svg?style=social&label=Fork)
-![GitHub watchers](https://img.shields.io/github/watchers/AutoFTbot/Wildcard-Bot.svg?style=social&label=Watch)
-
-![GitHub repo size](https://img.shields.io/github/repo-size/AutoFTbot/Wildcard-Bot)
-![GitHub code size](https://img.shields.io/github/languages/code-size/AutoFTbot/Wildcard-Bot)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/AutoFTbot/Wildcard-Bot)
+[![Telegram Channel](https://img.shields.io/badge/📢%20Updates-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/AutoFtFile)
+[![GitHub Issues](https://img.shields.io/badge/🐛%20Issues-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AutoFTbot/Wildcard-Bot/issues)
+[![Developer](https://img.shields.io/badge/👨‍💻%20Developer-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/AutoFtBot69)
 
 </div>
 
@@ -172,6 +225,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Made with ❤️ by the AutoFTbot Team**  
 **Developer: [@AutoFtBot69](https://t.me/AutoFtBot69)**
 
-[🚀 Get Started Now](https://www.npmjs.com/package/autoft-bot-wildcard) • [📢 Updates Channel](https://t.me/AutoFtFile) • [💰 Donate](https://raw.githubusercontent.com/AutoFTbot/AutoFTbot/refs/heads/main/assets/QRIS.jpg)
+[🚀 **Get Started Now**](https://www.npmjs.com/package/autoft-bot-wildcard) • [📢 **Updates Channel**](https://t.me/AutoFtFile) • [💰 **Donate**](https://raw.githubusercontent.com/AutoFTbot/AutoFTbot/refs/heads/main/assets/QRIS.jpg)
 
 </div>
