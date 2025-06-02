@@ -42,6 +42,14 @@ npm start
 **🎉 Your bot is now live and ready!**
 
 ---
+<div align="center">
+  <h3>📺 Video Panduan Pemasangan Bot</h3>
+  <video width="100%" controls>
+    <source src="https://github.com/AutoFTbot/Wildcard-Bot/raw/main/bandicam%202025-06-02%2019-02-27-006.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p><a href="https://github.com/AutoFTbot/Wildcard-Bot/raw/main/bandicam%202025-06-02%2019-02-27-006.mp4">🔗 Unduh Video Langsung</a></p>
+</div>
 
 ## 🚀 Production Setup with PM2
 
