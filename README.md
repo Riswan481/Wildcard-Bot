@@ -236,3 +236,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [🚀 **Get Started Now**](https://www.npmjs.com/package/autoft-bot-wildcard) • [📢 **Updates Channel**](https://t.me/AutoFtFile) • [💰 **Donate**](https://raw.githubusercontent.com/AutoFTbot/AutoFTbot/refs/heads/main/assets/QRIS.jpg)
 
 </div>
+
+thank you
