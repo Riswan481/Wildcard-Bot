@@ -1,5 +1,4 @@
- 🌐 AutoFT Bot Wildcard
- ✅ Instalasi
+ 🌐 AutoFT Bot Wildcard Instalasi
 ```bash
 rm -rf autoft-bot-wildcard && \
 npm install -g autoft-bot-wildcard && \
